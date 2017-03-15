@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
         arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list_of_rooms);
         listView.setAdapter(arrayAdapter);
         request_user_name();
+        //gggg
+        //fff
+        //ffff
         add_room.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
