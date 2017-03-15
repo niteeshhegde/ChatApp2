@@ -37,7 +37,7 @@ public class Chat_Room extends AppCompatActivity {
         room_name=getIntent().getExtras().get("roomname").toString();
         dbref= FirebaseDatabase.getInstance().getReference().child(room_name);
         conversation=(TextView)findViewById(R.id.textView);
-//gyg6y
+//gyg6yfff
         setTitle("Room - "+room_name);
         sendbut.setOnClickListener(new View.OnClickListener() {
             @Override
