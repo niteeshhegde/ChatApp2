@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="screen1">#E91E63</color>
+    <color name="screen1_dark">#C2185B</color>
+    <color name="screen1_light">#F48FB1</color>
+    <color name="screen2">#9C27B0</color>
+    <color name="screen2_dark">#6A1B9A</color>
+    <color name="screen2_light">#CE93D8</color>
+    <color name="screen3">#4CAF50</color>
+    <color name="screen3_dark">#2E7D32</color>
+    <color name="screen3_light">#A5D6A7</color>
+    <color name="screen4">#FF5722</color>
+    <color name="screen4_dark">#D84315</color>
+    <color name="screen4_light">#FFAB91</color>
+    <color name="screen5">#03A9F4</color>
+    <color name="screen5_dark">#1565C0</color>
+    <color name="screen5_light">#BBDEFB</color>
+    <array name="dot_active">
+        <item>@color/screen1_dark</item>
+        <item>@color/screen2_dark</item>
+        <item>@color/screen3_dark</item>
+        <item>@color/screen4_dark</item>
+        <item>@color/screen5_dark</item>
+    </array>
+    <array name="dot_inactive">
+        <item>@color/screen1_light</item>
+        <item>@color/screen2_light</item>
+        <item>@color/screen3_light</item>
+        <item>@color/screen4_light</item>
+        <item>@color/screen5_light</item>
+    </array>
 </resources>
